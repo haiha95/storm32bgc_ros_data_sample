@@ -1,0 +1,7 @@
+<!-- -->
+<launch>
+  <node pkg="storm32bgc_ros_data_sample"
+    name="storm32bgc_ros_data_sample_node"
+    type="storm32bgc_ros_data_sample_node"
+    respawn="true" output="screen"/>
+</launch>
